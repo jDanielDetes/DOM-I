@@ -61,4 +61,4 @@ let button= document.querySelector("button");
 button.textContent = siteContent["cta"]["button"]
 
 let headerimg= document.getElementById("cta-img");
-headerimg
+headerimg.setAttribute("src", siteContent["cta"]["img-src"])
