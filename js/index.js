@@ -78,3 +78,6 @@ productDisc[1].textContent = siteContent["main-content"]["about-content"]
 productDisc[2].textContent = siteContent["main-content"]["services-content"]
 productDisc[3].textContent = siteContent["main-content"]["product-content"]
 productDisc[4].textContent = siteContent["main-content"]["vision-content"]
+
+let middleimg = document.getElementById("middle-img")
+middleimg.setAttribute("src", siteContent["main-content"]["middle-img-src"])
