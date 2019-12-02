@@ -63,3 +63,18 @@ button.textContent = siteContent["cta"]["button"]
 
 let headerimg= document.getElementById("cta-img");
 headerimg.setAttribute("src", siteContent["cta"]["img-src"])
+
+let productTitles = document.querySelectorAll("h4");
+productTitles[0].textContent = siteContent ["main-content"]["features-h4"]
+productTitles[1].textContent = siteContent ["main-content"]["about-h4"]
+productTitles[2].textContent = siteContent ["main-content"]["services-h4"]
+productTitles[3].textContent = siteContent ["main-content"]["product-h4"]
+productTitles[4].textContent = siteContent ["main-content"]["vision-h4"]
+
+
+let productDisc = document.querySelectorAll("p")
+productDisc[0].textContent = siteContent["main-content"]["features-content"]
+productDisc[1].textContent = siteContent["main-content"]["about-content"]
+productDisc[2].textContent = siteContent["main-content"]["services-content"]
+productDisc[3].textContent = siteContent["main-content"]["product-content"]
+productDisc[4].textContent = siteContent["main-content"]["vision-content"]
